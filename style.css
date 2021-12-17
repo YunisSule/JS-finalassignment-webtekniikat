@@ -1,0 +1,173 @@
+body {
+  font-family: 'Poly';
+  margin: 0;
+}
+
+/* Styles for header */
+header {
+  font-family: 'Abril fatface';
+  background-color: rgb(240, 24, 24);
+  height: 150px;
+  text-align: center;
+}
+
+header a {
+  color: #fff;
+  font-size: 96px;
+}
+/* Styles for header */
+
+/* Styles for navbar */
+.navbar {
+  display: flex;
+  background-color: rgb(47, 118, 163);
+  height: 30px;
+  gap: 5em;
+  padding-right: 20vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar button {
+  font-weight: bold;
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+.navbar button:hover {
+  color: rgb(163, 0, 0);
+}
+
+#nav-toggler {
+  visibility: hidden;
+}
+/* Styles for navbar */
+
+/* Styles for articles */
+#content {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  display: flex;
+}
+
+.articles {
+  flex: 1;
+  min-height: 100vh;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.article,
+.newsArticle {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 2px 2px 5px 0px rgb(147, 145, 145);
+  background-color: rgb(241, 241, 241);
+}
+
+.article:hover {
+  box-shadow: none;
+}
+
+p {
+  margin: 0;
+  padding: 1em 0 1em;
+}
+
+h2 {
+  margin: 0;
+  padding: 1em 0 1em;
+}
+.articles a {
+  text-decoration: none;
+  color: black;
+}
+
+.newsImage {
+  width: 500px;
+  box-shadow: 2px 2px 5px 0px gray;
+}
+
+.newsArticle a {
+  color: rgb(0, 147, 240);
+}
+
+.newsArticle a:hover {
+  color: rgb(163, 0, 0);
+}
+/* Styles for articles */
+
+/* Styles for aside items */
+#right {
+  width: 20vw;
+  border-left: black 1px solid;
+}
+/* Styles for aside items */
+
+/* Styles for footer */
+footer {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-top: 1px solid;
+  text-align: center;
+}
+/* Styles for footer */
+
+/* Styles for mobile */
+@media only screen and (max-width: 768px) {
+  header span {
+    display: none;
+  }
+  header a::after {
+    content: 'TNT';
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    min-height: 8vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .navbar button {
+    background: none;
+    border: none;
+    color: black;
+  }
+  #nav-toggler {
+    visibility: visible;
+    align-self: flex-start;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .navbar-toggle {
+    display: flex;
+    visibility: visible;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1em;
+    height: fit-content;
+    gap: 0.5rem;
+  }
+  .navbar-toggle a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .navbar-toggle a:hover {
+    color: rgb(163, 0, 0);
+  }
+
+  #right {
+    display: none;
+  }
+}
+/* Styles for mobile */
