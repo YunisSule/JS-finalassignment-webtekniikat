@@ -1,6 +1,6 @@
 # JS-finalassignment-webtekniikat
 
-# About
+# Description
 This project is a simple one page website, made with HTML, CSS and JavaScript. JavaScript is used to get data from REST API (https://newsapi.org/) and make the website dynamic. 
 
 # UI Document: 
