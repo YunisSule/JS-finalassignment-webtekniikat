@@ -2,7 +2,7 @@
 
 # Description
 
-This project is a simple one page website, made with HTML, CSS and JavaScript. JavaScript is used to get data from REST API (https://newsapi.org/) and make the website dynamic.
+This project is a simple one page website, made with HTML, CSS and JavaScript. JavaScript is used to get data from API (https://newsapi.org/) and make the website dynamic.
 Requests work only on localhost.
 
 # UI Document:
